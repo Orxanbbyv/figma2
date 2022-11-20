@@ -1,0 +1,307 @@
+:root {
+    --color-blue: #58A9A5;
+    --color-skyblue: #CCF0E6;
+    --color-gray: #404242;
+    --color-white: #fff;
+    --font-poppins: "poppins" ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 142px 0px 166px;
+}
+/* logoya padding verəndə o biri elementlər sıxıldı niyə elə oldu bimədim*/
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.logo_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    color: var(--color-blue);
+}
+.header_menu {
+    display:flex;
+    list-style-type: none;
+    gap: 86px;
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+   
+}
+.header__menu-text{
+    color: var(--color-gray);
+    cursor: pointer;
+}
+.header__menu-text:hover{
+    color: var(--color-skyblue);
+    border-bottom:2px solid #FEC62D ;
+    border-radius: 21px;
+}
+
+.btn {
+    font-family: var(--font-poppins);
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    width: 271px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+.btn-radius{
+    border-radius: 20px 20px 20px 0px !important;
+}
+.btn-font{
+    font-weight: 700 !important;
+}
+/*hero*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 105px 106px 0px 166px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+   gap: 50px;
+}
+.content__title {
+    font-family: var(--font-poppins);
+    font-weight: 800;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 90px;
+    color: #1C2323;
+}
+.content__text {
+    font-family: var(--font-poppins);
+    font-weight:400;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 45px;
+}
+.content-img{
+    background: #CCF0E6;
+    border-radius: 120px;
+    margin-left: 45px;
+}
+/*divisor*/
+.divisor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+}
+.divisor__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+}
+.divisor__text{
+    font-family: var(--font-poppins);
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+color: #404242;
+
+}
+/*sec-break*/
+.sec-break {
+    display: flex;
+    padding: 71px 142px 0px 166px;
+}
+.break-img{
+    background-image: url(./img/Rectangle\ 10.png);
+    width: 1063px;
+    height: 350px;
+}
+.break-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 549px;
+    height: 350px;
+    background-color: var(--color-skyblue);
+    border-radius: 0px 10px 10px 0px;
+    padding: 70px 106px 160px 115px;
+}
+/* video icon ekliye bilmedim*/
+.break-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #486958;
+}
+/*hero2*/
+.hero2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 262px 0px 166px;
+    gap: 145px;
+}
+.title { 
+    font-weight: 700 !important;
+    font-size: 34px !important;
+    line-height: 57px !important;
+}
+.text{
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 30px !important;
+    color: #486958 !important;
+    
+}
+.img2{
+    width: 642px;
+    height: 546px;
+    object-fit: contain;
+}
+.diss {
+    width: 135px;
+    height: 0px;
+    border: 5px solid #58A9A5;
+}
+/*HARD*/
+.sec-hard {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 109px 93px 0 73px;
+   gap: 15px;
+}
+.hard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.hard__title {
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--color-blue);
+    
+}
+.hard__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #486958;
+}
+/*h*/
+.h1 {
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #1C2323;
+    
+}
+.h11{
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.picture{
+    padding-top: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+/*sec-end*/
+.sec-end {
+    display: flex;
+    justify-content: center;
+    padding: 160px 142px 0px 166px;
+}
+.border-end{
+    width: 997px;
+    height: 700px;
+    background-color: var(--color-skyblue);
+    
+}
+.text-end{
+    display: flex;
+    justify-content: center;
+    padding: 50px 135px 0px 135px;
+    gap: 117px;
+}
+/* Burda font-size verende sectionun paddingi niye islemir? div boyuyur*/ 
+.content_end {
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 800;
+    color:var(--color-blue);
+    gap: 117px;
+}
+
+.end-p {
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #486958;
+    padding: 123px 107px 119px 137px;
+}
+
+/*FOot*/
+.foot{
+    display: flex;
+    padding: 240px 142px 334px 165px;
+}
+.foot_content {
+    display: flex;
+    flex-direction: column;
+}
+.foot__table{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 1109.24px;
+    height: 450px;
+    border: 1px solid #486958;
+}
+.foot-h3{
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    border-bottom: 1px solid black;
+    padding-top: 57px;
+    padding-left: 54px;
+}
+/* buttonu sona getirmeye sebrim catmadi justify-self ile olmalidi sehv elemiremse */
